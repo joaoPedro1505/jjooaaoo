@@ -21,3 +21,41 @@ header{
       margin: 0 10px;
     
     }
+
+    nav a{
+        color:white;
+        text-decoration: none;
+    }
+
+    section{
+     padding: 20px;
+     margin:10px;
+     background:white;
+     border: radius 5px;
+    }
+
+.projetos{
+    display:flex;
+    justify-content: center;
+     flex-wrap: wrap;
+     
+}
+
+.projetos ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ .projetos li {
+    margin:10px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+
+}
